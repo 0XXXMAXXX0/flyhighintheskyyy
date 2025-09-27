@@ -442,7 +442,6 @@ banner = '''\033[31m
 print(banner)
 
 def countdown(seconds):
-    print(f"\nWachten {seconds} seconden. Druk op 'F' om opnieuw te zoeken.")
     for remaining in range(seconds, 0, -1):
         print(f"\r {remaining:3} secondes resterend druk op 'f' om opnieuw de lookup te openen swalibibi", end='', flush=True)
         start = time.time()
